@@ -1,4 +1,7 @@
 
+body {
+  background-color: whitesmoke;
+}
 
 #titulo{
     text-align: center;
@@ -15,21 +18,17 @@ h2{
 img{
     border: 1px solid rgb(0, 0, 0);
   border-radius: 2px;
-  width: 315px;
-    
-     display: block;
-  margin-left: auto;
-  margin-right: o;
+  width: 300px;
     
     position: absolute;
-    top: 11%;
-    left: 1018px;
+    top: 8%;
+    left: 935px;
   
 }
 
 #parrafo1{
 margin-right: 100px;
-    width: 1000px;
+    width: 900px;
     
 }
 
@@ -37,6 +36,10 @@ caption{
     background-color: orange;
 }
 
+body{
+
+    background-color;
+}
 table{
     width: 25%;    
 }
@@ -62,15 +65,9 @@ table{
     color: orange;
     
 }
-#letra6{
-    color: orange;
-    
-}
-#letra7{
-    color: orange;
-    
-}
 video {
-  width: 25%;
-  height: auto;
+  width: 400px;
+height: 300px;
+margin-top: -25px;
+
 }
