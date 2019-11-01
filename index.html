@@ -12,7 +12,9 @@
 <body>
 
     <header>
+        <!-- En el header he colocado el título que le doy a la página -->
         <span id="titulo">
+            <!-- Coloco el titulo (h2) dentro de un span y le asigno un id para poderle dar estilo posteriormente -->
             <h2>DUKI</h2>
         </span>
 
@@ -24,22 +26,24 @@
 
     <section>
         <article>
-
+            <!-- El texto lo coloco dentro de un párrafo y le asigno un id  -->
             <p id="parrafo1">Mauro Ezequiel Lombardo, más conocido como Duki, es un cantante de trap argentino. Es
                 conocido por sus participaciones en El Quinto Escalón y por sus canciones She Don't Give a FO, Sin culpa
                 (ft. DrefQuila) y por su colaboración con Khea en la canción Loca, que se volvió muy popular en el mundo
                 del trap latino. Durante su etapa como freestyler, fue muy popular debido a su buen flow. </p><br>
 
 
-
+            <!-- Pongo una imagen guardada en la carpeta imagenes y la convierto en un enlace que se abre en una nueva pestaña -->
             <a href="https://open.spotify.com/artist/1bAftSH8umNcGZ0uyV7LMg" target="_blank">
                 <img src="imagenes/duki.jpg">
             </a>
-
+            <!-- Creo una tabla con sus tres partes (thead, tbody y tfooter)   -->
             <table>
+                <!-- En el thead coloco el titulo de la tabla  -->
                 <thead>
                     <caption>DATOS GENERALES:</caption>
                 </thead>
+                <!-- En el tbody la tabla en si con 5 filas y 2 columnas asignando un id a las palabras de la primera columna para cambiar su color en css -->
                 <tbody>
                     <tr>
                         <td><span id="letra1">Nombre Real</span></td>
@@ -76,7 +80,7 @@
                 </tfoot>
 
             </table>
-
+            <!--  Creo un titulo para el apartado de audio, en el cual agrego, en tres formatos diferentes, la cancion que quiero que aparezca  -->
             <h4>Mi canción favorita del Duko:</h4>
 
             <audio controls>
@@ -86,9 +90,10 @@
                 Tu navegador no puede mostrar este elemento de audio.
             </audio>
 
+            <!-- Creo un titulo para el apartado de video y agrego, en tres formatos diferentes, el video a mostrar  -->
             <h4>Mi video favorito del Duko:</h4>
 
-            <video controls autoplay loop>
+            <video controls> 
                 <source src="videos/goteo.ogv" type="video/ogv" />
                 <source src="videos/goteo.mp4" type="video/mp4" />
                 <source src="videos/goteo.webm" type="video/webm" />
