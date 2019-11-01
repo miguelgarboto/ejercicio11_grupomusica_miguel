@@ -1,56 +1,54 @@
-
+/* Todo el cuerpo tendra: */
 body {
-  background-color: whitesmoke;
-    font-family: verdana;
-    font-size: 15px;
+  background-color: whitesmoke; /* color whitesmoke */
+    font-family: verdana; /* Fuente verdana */
+    font-size: 15px; /* tamaño de la fuente 15p */
 }
-
+/* El texto del titulo esta alineado en el centro y de color naranja*/
 #titulo{
     text-align: center;
     color: orange;
 }
-
+/* Todos los h2 tienen un borde de dos px de ancho y 5px de radio (para hacer las esquinas redondeadas) */
 h2{
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
     
 }
-
+/* La imagen tiene:*/
 img{
-    border: orange 3px solid;
-    padding: 2px;
-    width: 300px;
-    position: absolute;
-    top: 10%;
-    left: 1030px;
-    border-radius: 10px;
+    border: orange 3px solid; /* borde naranja de 3px */
+    padding: 2px; /* relleno de 2px */
+    width: 300px; /* anchura de 300px */
+    position: absolute; /* posicion absoluta (cuadrado) */
+    top: 10%; left: 1030px; /* con margenes de 10% el superior y de 1030px el izquierdo */
+    border-radius: 10px; /* radio de 10px */
   
 }
-
+/* El parrafo tiene una anchura de 1000px */
 #parrafo1{
-    margin-right: 100px;
     width: 1000px;
     
 }
-
+/* El titulo de la tabla tiene el fondo de color naranja */
 caption{
     background-color: orange;
 }
 
-
+/* La tabla tiene una anchura del 25% */
 table{
     width: 25%;    
 }
-
+/* Las palabras definidas anteriormente en html serán naranjas */
 #letra1, #letra2, #letra3, #letra4, #letra5 {
     color: orange;
     
 }
-
+/* El video tiene: */
 video {
-    width: 400px;
-    height: 300px;
-    margin-top: -35px;
+    width: 400px; /* Unas dimensiones de 300x400 (400px anchura) */
+    height: 300px; /* 300px altura */
+    margin-top: -35px; /* Margen de -35 con la parte superior */
 
 }
