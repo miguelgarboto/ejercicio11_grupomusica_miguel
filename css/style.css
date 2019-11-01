@@ -23,13 +23,14 @@ img{
     width: 300px;
     position: absolute;
     top: 10%;
-    left: 935px;
+    left: 1030px;
+    border-radius: 10px;
   
 }
 
 #parrafo1{
     margin-right: 100px;
-    width: 900px;
+    width: 1000px;
     
 }
 
